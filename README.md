@@ -23,7 +23,7 @@ I also added them to the update set using the Add to Update Set utility from Sha
 ## Create a new Task type table and form showing at least the following fields: Number, Business Service, Configuration Item, Change Request (Reference to the change_request table), Knowledge Checkbox, State (Open, In Progress, Complete), Impact, Assignment Group, Assigned to, Short Description and Description.
 
 I extended the Task table as a new table called "Test Task".
-I added the following fields
+I added the following fields:
 * Business Service - u_business_service (referencing cmdb_ci_service)
 * Change Request - u_change_request (referencing change_request)
 
